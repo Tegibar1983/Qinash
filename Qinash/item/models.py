@@ -4,6 +4,4 @@ from django.db import models
 
 class Category(models.Model):
     #models goes here!
-
-
-
+    name = models.CharField(max_length=255)
