@@ -3,6 +3,7 @@ from django.contrib.auth.models import User
 
 # data base model for item app categories
 
+<<<<<<< HEAD
 class Category(models.Model):
     #Category database model
     name=models.CharField(max_length=255)
@@ -32,3 +33,5 @@ class Item(models.Model):
         # change arbitrary name definition to acctual object naming"""
         return self.name
 
+=======
+>>>>>>> d210967ef58c4e52b7836418f99d5c6e22e64fa1
