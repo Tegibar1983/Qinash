@@ -7,7 +7,6 @@ class Category(models.Model):
     #Category database model
     name=models.CharField(max_length=255)
 
-
     class Meta:
         ordering=('name',)
         #change categors to Categories
